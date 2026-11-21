@@ -13,7 +13,7 @@ app.get("/",(req, res) => {
 const db = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "Jiya@3012", // Add your MySQL password here
+  password: "", // Add your MySQL password here
   database: "cricket_db"
 });
 
